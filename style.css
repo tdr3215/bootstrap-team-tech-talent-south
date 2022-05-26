@@ -1,17 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
 .nav-link
 {
     color: #87909E;
     font-size: 15px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', normal;
     padding: 0 8px;
+}
+
+.custom-sizing
+{
+    margin: 6% 5% 0 12%;
+    width: 75%;
+}
+
+.active{
+    color: #0c63ff;
+}
+
+.lead{
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.fw-bold{
+    font-weight: 600;
+    margin: 0px 0px 20px;
+}
+
+.make-fit
+{
+    width: 100%;
+    padding: 0 100px;
 }
 
 .nav-link:hover
 {
     color: #0c63ff;
+}
+
+.text-white
+{
+    text-align: center;
 }
 
 .custom-brand
@@ -38,10 +72,9 @@
     overflow: hidden;
 }
 
-.content
-{
-    position: relative;
-    overflow: hidden;
-    background-color: #0c63ff;
-    width: 100%;
+
+.mb-4{
+    margin-top: 5rem;
+    background-color: #0c63ff !important;
+    height: 24rem;
 }
