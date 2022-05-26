@@ -38,8 +38,10 @@
     overflow: hidden;
 }
 
-.jumbotron
+.content
 {
-    padding: 4rem;
-    margin-top: 6rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #0c63ff;
+    width: 100%;
 }
