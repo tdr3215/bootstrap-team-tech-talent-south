@@ -164,12 +164,35 @@ ul.social li i
 {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     margin: 0 -15px;
     padding: 0;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+}
+
+.dropdown-item
+{
+    color: #87909e;
+    font-size: 14.4px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.dropdown-item:hover
+{
+    color: #0c63ff;
+    background-color: white;
+}
+
+.dropdown-menu
+{
+    border-top: 2px solid #0c63ff;
+}
+
+.dropdown-menu:hover
+{
+    visibility: visible;
 }
 
 .sr-spacer-bottom-50
