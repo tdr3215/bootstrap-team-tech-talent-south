@@ -179,6 +179,31 @@ ul.social li i
     font-weight: 400;
 }
 
+.spacing
+{
+    padding: 0;
+    margin: 0;
+}
+
+.custom-list
+{
+    list-style: none;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #000;
+}
+
+.sublist
+{
+    padding: 0;
+    color:#87909e;
+    font-size: 13.6px;
+    line-height: 32px;
+    text-align: left;
+    font-weight: 400;
+}
+
 .dropdown-item:hover
 {
     color: #0c63ff;
