@@ -214,6 +214,7 @@ ul.social li i
     line-height: 32px;
     text-align: left;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .dropdown-item:hover
@@ -232,6 +233,11 @@ ul.social li i
     visibility: visible;
 }
 
+.dropdown-toggle::after 
+{
+    display: none;
+}
+
 .margin
 {
     margin-top: 3rem;
@@ -244,7 +250,7 @@ ul.social li i
 
 .line
 {
-    border-bottom: 1px black dotted;
+    border-bottom: 1px lightgray dotted;
 }
 
 .sr-spacer-bottom-50
