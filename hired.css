@@ -4,16 +4,16 @@
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 .bg-light {
-    background-color: #fff !important;
+  background-color: #fff !important;
 }
 
 body {
   line-height: 1.5rem;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -25,9 +25,23 @@ body {
   height: 5.4rem;
 }
 
+a.nav-link:hover,
+li > a:hover {
+  color: #0d53d6 !important;
+  background-color: #fff !important;
+}
+.text-primary {
+  color: #0c63ff !important;
+}
 
-a#navbarDropdown.nav-link , a.nav-link {
-  color: #87909e;
+.dropdown-menu {
+  border-top: 3px #0c63ff solid;
+  word-wrap: break-word;
+  
+}
+
+a#navbarDropdown.nav-link,
+a.nav-link {
   font-size: 0.9rem;
   padding: 0 16px;
   font-weight: 400;
