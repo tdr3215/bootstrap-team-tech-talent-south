@@ -1,1 +1,0 @@
-# bootstrap-team-tech-talent-south
